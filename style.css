@@ -1,0 +1,227 @@
+/** {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.head1 {
+    font-size: 10vh;
+    font-family: Kalnia;
+    text-align: center;
+    margin: 15% 2%;
+    margin-left: 25%;
+}
+
+#b1 {
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.body {
+    min-height: 100%;
+    padding: 2%;
+    background-color: rgb(241, 241, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Adjustments for larger screens */
+   /* @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.first {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Media queries for responsiveness */
+/*@media screen and (min-width: 768px) {
+    .head1 {
+        font-size: 12vh;
+        text-align: left;
+        margin: 2% 5%;
+    }
+
+    #b1 {
+        font-size: 2.5vw;
+        text-align: left;
+    }
+
+    .body {
+        padding: 5%;
+    }
+}
+*/
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+.head1 {
+    font-size: 10vh;
+    font-family: Kalnia;
+    text-align: center;
+    margin: 15% 2%;
+    margin-left: 25%;
+}
+
+#b1 {
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+
+
+}
+
+.body {
+    min-height: 100%;
+    padding: 2%;
+    background-color: rgb(33, 33, 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Adjustments for larger screens */
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.first {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+/* ... (previous styles) ... */
+
+.con2 {
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+}
+
+#b2 {
+    font-size: 2.5vw;
+    text-align: center;
+    width: 100%; /* Full width on smaller screens */
+    margin-bottom: 2%; /* Adjust margin as needed */
+}
+
+span {
+   /* flex: 0 0 calc(33.3333% - 2%); /* Three spans in a row with some spacing */
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 1%; /* Adjust margin as needed */
+    box-sizing: border-box;
+    padding: 0 1%; /* Adjust padding as needed */
+}
+img {
+    width: 100%; /* Full width on smaller screens */
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 2%; /* Adjust margin as needed */
+}
+
+/* Media queries for responsiveness */
+@media screen and (min-width: 768px) {
+    .head1 {
+        font-size: 12vh;
+        text-align: left;
+        margin: 2% 5%;
+    }
+
+    #b1 {
+        font-size: 2.5vw;
+        text-align: left;
+    }
+
+    .body {
+        padding: 5%;
+    }
+
+    #b2 {
+        text-align: left;
+    }
+}
+
+/*.image-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zoom-image {
+    width: 100%;
+   /* max-width: 800px; 
+    height: auto;
+    transform-origin: center center;
+}
+.i1{
+    width:50%;
+}*/
+
+
+.image-container {
+    margin-top:5vw;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(241, 241, 239);
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.i1,
+.i2 {
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+    transform-origin: center center;
+}
+
+.p1 {font-family: 'Bebas Neue', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 10vw;
+   
+}
+.spacer {
+    height: 200vh; /* Add enough height to make scrolling noticeable */
+}
+
